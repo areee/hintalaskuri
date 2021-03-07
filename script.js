@@ -1,3 +1,6 @@
+// TODO: start using prices from json. See this: https://stackoverflow.com/a/24378510
+// var mydata = JSON.parse(data);
+
 let valuePriceInput = document.getElementById('valuePriceInput');
 valuePriceInput.addEventListener('input', calculateValuePrice);
 valuePriceInput.addEventListener("keyup", closeSoftKeyboardWhenEnterPressed);
